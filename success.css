@@ -1,0 +1,16 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}
+body{
+  height:100vh;
+  background:linear-gradient(135deg,#ff4d6d,#ffb3c1);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:#fff;
+  overflow:hidden;
+}
+.wrap{text-align:center;padding:26px;}
+h1{font-size:3rem;margin-bottom:18px;}
+.card{padding:22px;border-radius:18px;background:rgba(255,255,255,.14);}
+.gif{width:320px;max-width:85vw;border-radius:14px;}
+.heart{position:absolute;bottom:-40px;font-size:24px;animation:float 5s linear forwards;}
+@keyframes float{to{transform:translateY(-120vh) scale(1.6);opacity:0;}}
